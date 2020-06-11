@@ -12,7 +12,7 @@ class School
   
   def add_student(name, grade)
     binding.pry
-    @@roster[:grade] = grade
+    @@roster[grade] = name
   end 
   
   
