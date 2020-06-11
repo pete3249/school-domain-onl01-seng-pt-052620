@@ -22,8 +22,11 @@ class School
   end 
   
   def sort
-    @roster.sort_by {|key, value| [key, value]}
-    binding.pry
+    @roster.each do |grade, students|
+      
+    end 
+    
+
     puts "Hi"
   end 
   
