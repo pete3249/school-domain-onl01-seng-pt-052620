@@ -18,8 +18,7 @@ class School
       @roster[grade] << name
       
   def grade(grade)
-    binding.pry
-    
+    @roster[grade]
   end 
   
   end 
