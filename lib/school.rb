@@ -22,7 +22,10 @@ class School
   end 
   
   def sort 
+    binding.pry
+    @roster.sort_by {|key, value| [k, v]}
     
+  
   end 
   
   end 
