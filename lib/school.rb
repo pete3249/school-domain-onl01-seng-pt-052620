@@ -24,8 +24,7 @@ class School
   def sort
     @roster.sort_by {|key, value| [k, v]}
     binding.pry
-    
-  
+    puts "Hi"
   end 
   
   end 
