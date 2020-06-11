@@ -14,5 +14,9 @@ class School
     @@roster[grade] = []
     @@roster[grade] << name
   end 
+  
+  def add_student
+    @@roster
+  end 
  
 end 
